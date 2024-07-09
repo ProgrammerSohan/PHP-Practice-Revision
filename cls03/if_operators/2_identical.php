@@ -6,13 +6,13 @@
     <title>PHP If Operators</title>
 </head>
 <body>
-    <h1>PHP == Operator</h1>
-    <p>==,equal. It returns true if the values are equal.</p>
+    <h1>PHP === Operator</h1>
+    <p>===,Identical. It returns true if the values & data types are identical.</p>
     <?php 
         $x=100; $y = 100;
 
-        if($x == $y){
-            echo "$x is equal to $y";
+        if($x === $y){
+            echo "$x is identical to $y";
 
         }
     ?>

@@ -6,14 +6,13 @@
     <title>PHP If Operators</title>
 </head>
 <body>
-    <h1>PHP == Operator</h1>
-    <p>==,equal. It returns true if the values are equal.</p>
+    <h1>PHP != Operator</h1>
+    <p>!=,Not equal. It returns true if the values are not equal.</p>
     <?php 
-        $x=100; $y = 100;
+        $x=100; $y = 50;
 
-        if($x == $y){
-            echo "$x is equal to $y";
-
+        if( $x != $y){
+            echo "$x is not equal to $y";
         }
     ?>
     
